@@ -270,13 +270,13 @@ button:hover {
     width: 230px;
     height: 230px;
     margin-left: 2vh;
-    margin-top: 0vh;
+    margin-top: 4vh;
   }
   .top {
     height: 425px;
   }
   .maincontainer {
-    margin: 30px;
+    margin: 10px;
   }
   .languages .languagesbox {
     grid-template-columns: 2fr 2fr;
@@ -295,20 +295,20 @@ button:hover {
   .educ h5 {
     font-weight: 600;
     color: #6e00c3;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
   }
   .companyname {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-top: 20px;
     margin-right: 20px;
   }
   .workexp {
-    font-size: 15px;
+    font-size: 13px;
   }
   #aboutwork {
-    font-size: 12px;
+    font-size: 11px;
     font-style: italic;
   }
   .vole {
@@ -322,11 +322,11 @@ button:hover {
     margin-top: 20px;
   }
   .educfix {
-    font-size: 15px;
+    font-size: 13px;
     font-style: italic;
   }
   .interests p {
-    margin-bottom: 25px;
+    margin-bottom: 2px;
     display: flex;
     justify-content: left;
     margin-left: 0;
@@ -336,229 +336,217 @@ button:hover {
     right: 8px;
     top: 3px;
   }
+  .value span {
+    font-size: 14px;
+  }
+  .value p {
+    font-size: 14px;
+  }
 }
 /* ---------------------Mobile-L++-------------------------- */
-@media (max-width: 725px) {
-  .leftside img {
-    width: 210px;
-    height: 210px;
-    margin-left: 2vh;
-    margin-bottom: 2vh;
-  }
-  .top {
-    height: 340px;
-  }
-
-  .top h2 {
-    font-size: 42px;
-    margin-left: 35px;
-    padding-top: 35px;
-  }
-
-  .top span {
-    font-size: 34px;
-  }
-
+@media (max-width: 714px) {
   .about {
     color: rgb(223, 224, 223);
-    font-size: 14px;
+    font-size: 16px;
     padding: 1px;
-    line-height: 23px;
-    margin-top: 15px;
+    margin-bottom: 70px;
+    line-height: 25px;
+    padding-top: 10px;
   }
-
-  .middle {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    margin: 20px;
-    gap: 30px;
+  .leftside img {
+    width: 230px;
+    height: 230px;
+    margin-left: 2vh;
+    margin-top: 0vh;
   }
-
-  .contactInfo {
-    font-size: 14px;
-    gap: 10px;
+  .top {
+    height: 425px;
   }
-
-  .languages {
-    font-size: 13px;
+  .maincontainer {
+    margin: 10px;
   }
   .languages .languagesbox {
-    grid-template-columns: 4fr 6fr;
-    margin: 10px 0;
-    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 20px;
+    margin-left: 0;
   }
-
-  .educ {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+  .contactInfo {
+    font-size: 15x;
   }
-  .educationfix {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-  }
-
-  .companyname {
-    font-size: 16px;
-    margin-top: 15px;
-  }
-
-  .educ h5 {
-    font-size: 16px;
-  }
-
-  .workexp {
+  #Volunteer {
     font-size: 14px;
   }
-
-  #aboutwork {
+  h4 {
+    font-size: 0.9em;
+  }
+  .educ h5 {
+    font-weight: 600;
+    color: #6e00c3;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .companyname {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .workexp {
     font-size: 12px;
   }
-
-  .interests {
+  #aboutwork {
+    font-size: 11px;
+    font-style: italic;
+  }
+  .vole {
+    margin-left: 10px;
+  }
+  .educ {
+    position: relative;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 20px;
   }
-
+  .educfix {
+    font-size: 13px;
+    font-style: italic;
+  }
   .interests p {
-    font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
   }
-
   .interests i {
-    font-size: 16px;
-    right: 6px;
-    top: 2px;
+    position: relative;
+    right: 8px;
+    top: 3px;
   }
-/* fdsfsgdsgsgsggadgdgsdgdsgsdfgdsgdsfgdsgdsfbqeejhwwtrfoystjhostajhrgdjf */
+  .value span {
+    font-size: 13px;
+  }
+  .value p {
+    font-size: 14px;
+  }
   .rightside {
     top: 0;
   }
-.educ .companyname {
-  font-size: 17px;
-}}
+}
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-@media (max-width: 644px) {
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+@media (max-width: 560px) {
+  * {
+    font-family: "Poppins", sans-serif;
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+  }
+  body {
+    transform: scale(0.85);
+    transform-origin: top center;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .maincontainer {
+    margin: 10px;
+    width: 200%;
+    /* lsadnbsaljdhaskhdbaskhdshkfahfvsgdhjasjdas */
+  }
   .leftside img {
-    width: 180px;
-    height: 180px;
-    margin-left: 2vh;
+    width: 145px;
+    height: 145px;
+    margin-left: 3vh;
     margin-bottom: 4vh;
   }
   .top {
-    height: 300px;
+    height: 235px;
+    width: 100%;
+  }
+  .middle {
+    gap: 30px;
+    margin: 30px 30px 0;
   }
 
   .top h2 {
-    font-size: 38px;
+    font-size: 32px;
     margin-left: 25px;
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   .top span {
-    font-size: 27px;
+    font-size: 24px;
   }
 
   .about {
     color: rgb(223, 224, 223);
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 16px;
+  }
+  h4 {
     font-size: 13px;
-    padding: 1px;
-    line-height: 20px;
   }
   #Volunteer {
     text-align: center;
   }
   #volsize1 {
-    font-size: 15px;
+    font-size: 13px;
+    margin: 3px;
   }
   #volsize2 {
-    font-size: 15px;
+    font-size: 13px;
+    margin: 3px;
   }
   .educ {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 4fr;
   }
   .educationfix {
     display: grid;
     grid-template-columns: 2fr 5fr;
   }
 
+  .middle {
+    grid-template-columns: 1fr 4fr;
+    display: grid;
+  }
   .languages .languagesbox {
     grid-template-columns: 4fr 6fr;
     margin: 10px 0;
     display: grid;
   }
   .educ .companyname {
-    font-size: 17px;
-  }}
-  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-  @media (max-width: 560px) {
-    .maincontainer {
-      margin: 10px;
-    }
-    .leftside img {
-      width: 155px;
-      height: 155px;
-      margin-left: 2vh;
-      margin-bottom: 3vh;
-    }
-    .top {
-      padding-top: 5px;
-      height: 265px;
-    }
-
-    .top h2 {
-      font-size: 32px;
-      margin-left: 25px;
-    }
-
-    .top span {
-      font-size: 24px;
-    }
-
-    .about {
-      color: rgb(223, 224, 223);
-      font-size: 13px;
-      margin-top: 5px;
-      line-height: 18px;
-    }
-    #Volunteer {
-      text-align: center;
-    }
-    #volsize1 {
-      font-size: 14px;
-      margin: 3px;
-    }
-    #volsize2 {
-      font-size: 14px;
-      margin: 3px;
-    }
-    .educ {
-      display: grid;
-      grid-template-columns: 2fr 4fr;
-    }
-    .educationfix {
-      display: grid;
-      grid-template-columns: 2fr 5fr;
-    }
-
-    .middle {
-      grid-template-columns: 1fr 4fr;
-      display: grid;
-    }
-    .languages .languagesbox {
-      grid-template-columns: 4fr 6fr;
-      margin: 10px 0;
-      display: grid;
-    }
-    .educ .companyname {
-      font-size: 15px;
-    }
-    .contactInfo {
-      font-size: 12px;
-    }
+    font-size: 13.5px;
   }
-  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-  /* -----------------------Mobile-M-------------------------- */
-  @media (max-width: 524px) {
+  .contactInfo {
+    font-size: 12px;
   }
+  .rightside {
+    top: 0;
+  }
+  .value p {
+    font-size: 12px;
+  }
+  .languages p {
+    font-size: 13px;
+  }
+  .languages .languagesbox .value {
+    height: 10px;
+  }
+  .languages .languagesbox {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.educ h5 {
+  font-size: 15px;
+}
+.educ .date {
+  font-size: 15px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* -----------------------Mobile-M-------------------------- */
+@media (max-width: 524px) {
+}
