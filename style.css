@@ -232,6 +232,9 @@ button:hover {
   font-size: 15px;
   font-style: italic;
 }
+.icon4mobile {
+  display: none;
+}
 /* -------------------------------------------------------- */
 /* ---------------------Right-Side-FIXING----------------- */
 /* -------------------------------------------------------- */
@@ -444,14 +447,14 @@ button:hover {
     box-sizing: border-box;
   }
   body {
-    transform: scale(0.85);
+    transform: scale(0.9);
     transform-origin: top center;
     margin: 0;
     width: 100%;
     overflow-x: hidden;
   }
   .maincontainer {
-    margin: 10px;
+    margin: 5px;
     width: 200%;
     /* lsadnbsaljdhaskhdbaskhdshkfahfvsgdhjasjdas */
   }
@@ -466,8 +469,7 @@ button:hover {
     width: 100%;
   }
   .middle {
-    gap: 30px;
-    margin: 30px 30px 0;
+    margin: 25px 25px 0;
   }
 
   .top h2 {
@@ -482,12 +484,13 @@ button:hover {
 
   .about {
     color: rgb(223, 224, 223);
-    font-size: 10px;
+    font-size: 9px;
     margin-top: 5px;
     line-height: 16px;
   }
   h4 {
     font-size: 13px;
+    text-align: center;
   }
   #Volunteer {
     text-align: center;
@@ -495,14 +498,18 @@ button:hover {
   #volsize1 {
     font-size: 13px;
     margin: 3px;
+    margin-bottom: 8px;
   }
   #volsize2 {
     font-size: 13px;
     margin: 3px;
+    margin-bottom: 8px;
+  }
+  #aboutwork {
+    font-size: 8px;
   }
   .educ {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
+    display: inherit;
   }
   .educationfix {
     display: grid;
@@ -520,6 +527,9 @@ button:hover {
   }
   .educ .companyname {
     font-size: 13.5px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
   }
   .contactInfo {
     font-size: 12px;
@@ -528,7 +538,8 @@ button:hover {
     top: 0;
   }
   .value p {
-    font-size: 12px;
+    font-size: 10.5px;
+    line-height: 1.3;
   }
   .languages p {
     font-size: 13px;
@@ -538,15 +549,63 @@ button:hover {
   }
   .languages .languagesbox {
     grid-template-columns: 1fr 1fr;
+    line-height: 1.8;
   }
-}
-.educ h5 {
-  font-size: 15px;
-}
-.educ .date {
-  font-size: 15px;
+  .educ h5 {
+    font-size: 12px;
+  }
+  .educ .date {
+    font-size: 13px;
+  }
+  .workexp {
+    font-size: 10px;
+  }
+  .icon4mobile {
+    display: inline;
+    margin-right: 5px;
+  }
+  .interests {
+    margin-top: 15px;
+  }
+  .value span {
+    font-size: 11px;
+  }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* -----------------------Mobile-M-------------------------- */
-@media (max-width: 524px) {
+@media (max-width: 376px) {
+  * {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    transform: scale(0.95);
+    transform-origin: top center;
+    margin: 0;
+    width: 150%;
+    overflow-x: hidden;
+  }
+  .maincontainer {
+    margin: 10px;
+    width: 100%;
+    /* lsadnbsaljdhaskhdbaskhdshkfahfvsgdhjasjdas */
+  }
+  .leftside img {
+    width: 145px;
+    height: 145px;
+    margin-left: 3vh;
+    margin-bottom: 4vh;
+  }
+  .top {
+    height: 235px;
+    width: 100%;
+  }
+  .middle {
+    margin: 25px 25px 0;
+  }
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDebug-CheckXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  /* .maincontainer, .top, .middle { max-width: 100%; }* { outline: 1px solid rgba(255,0,0,0.2); } */
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 }
