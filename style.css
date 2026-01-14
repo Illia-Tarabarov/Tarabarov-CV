@@ -446,6 +446,9 @@ button:hover {
     padding: unset;
     box-sizing: border-box;
   }
+  html {
+    height: -webkit-fill-available;
+  }
   body {
     transform: scale(0.9);
     transform-origin: top center;
