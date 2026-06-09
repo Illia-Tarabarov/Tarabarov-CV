@@ -37,13 +37,13 @@ body {
 /* -------------------------------------------------------- */
 .top h2 {
   color: rgba(250, 255, 240, 0.929);
-  font-size: 60px;
+  font-size: 68px;
   margin-left: 40px;
   padding-top: 40px;
 }
 .top span {
   color: rgba(250, 255, 240, 0.929);
-  font-size: 37px;
+  font-size: 30px;
   font-weight: 90;
 }
 /* -------------------------------------------------------- */
